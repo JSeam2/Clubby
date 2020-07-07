@@ -6,4 +6,4 @@ Join a community radio channel introduce tracks to people, let the crowds decide
 Gain clout and prove your music tastes.
 
 # Overview
-1. `clubby` contains the web application. This is meant to be hosted on Google's Appengine
+1. `clubby` contains the Django web application. This is meant to be hosted on Google's Appengine

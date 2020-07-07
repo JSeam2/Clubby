@@ -138,5 +138,5 @@ dmypy.json
 cython_debug/
 
 django-static/
-
 env_variables.yaml
+deploy.sh
