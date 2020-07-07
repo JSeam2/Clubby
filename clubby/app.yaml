@@ -1,6 +1,9 @@
 runtime: python
 env: flex
 entrypoint: gunicorn -b :$PORT clubby.wsgi
+handlers:
+  - url: /static
+    static_dir: static
 
 runtime_config:
   python_version: 3
