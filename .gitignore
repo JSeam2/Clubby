@@ -140,3 +140,7 @@ cython_debug/
 django-static/
 env_variables.yaml
 deploy.sh
+public.pem
+private.pem
+
+.DS_Store
