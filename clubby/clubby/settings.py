@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_react_templatetags',
 
+    # my apps
+    'users',
 ]
 
 MIDDLEWARE = [
