@@ -33,4 +33,9 @@ Let the crowds decide how hot your music taste is.
 1. **Segmentation of Mixes**: As users will be pushing out tracks to queues via the system, we are able to track the play count of the individual tracks and account for the relevant metadata. This information can later be used for royalty payments and payments to the respective rights holders. Ad monies, and subscription payments are monies that can be distributed by this system.
 
 # Overview
-1. `clubby` contains the Django web application. This is meant to be hosted on Google's Appengine
+1. `clubby` contains the Django web application. This is meant to be hosted on Google's Appengine. This backend is designed to interface with Actions for Google Assistant
+
+# Challenges Faced While Building This
+1. Google cloud can be quite abstrust at times especially with Google actions which is needed for building voice interface with Google. 
+
+1. Hooking up the various functionalities can be tricky. Bugs can arise through misconfiguration, while they're are addressable quirks the are massive time wasters.
