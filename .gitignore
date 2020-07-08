@@ -144,3 +144,4 @@ public.pem
 private.pem
 
 .DS_Store
+cloudsql.json
