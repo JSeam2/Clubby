@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import JsonResponse
+import json
 import logging
 
 def index(request):
@@ -19,7 +20,10 @@ def create_user(request):
     })
 
 def webhook(request):
-    logging.info(request)
+    jsondata = request.body
+    logging.warning(jsondata)
+    data = json.loads(jsondata)
+    logging.warning(data)
 
     return JsonResponse({
         'message': "hello"
