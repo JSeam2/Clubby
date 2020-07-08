@@ -29,6 +29,7 @@ ALLOWED_HOSTS = [
     "0.0.0.0",
     "localhost", 
     "127.0.0.1", 
+    '35.247.190.193',
     "clubby.fm", 
     "www.clubby.fm",
     "clubby-282407.ey.r.appspot.com",
