@@ -37,6 +37,10 @@ Let the crowds decide how hot your music taste is.
 
 1. `nginx` contains the dockerized nginx server required to host the application outside of Google's Appengine.
 
+1. `certificates` is an empty folder for containing ssl certs
+
+1. `functions` contains various webhooks to run with actions console on google.
+
 # Challenges Faced While Building This
 1. Google cloud can be quite abstrust at times especially with Google actions which is needed for building voice interface with Google. 
 
