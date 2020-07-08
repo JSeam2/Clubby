@@ -10,4 +10,5 @@ urlpatterns = [
     path('privacy/', views.privacy, name='privacy'),
     path('tos/', views.tos, name='tos'),
     path('create_user/', csrf_exempt(views.create_user), name='create_user'),
+    path('webhook/', csrf_exempt(views.webhook), name='webhook')
 ]

@@ -17,3 +17,10 @@ def create_user(request):
     return JsonResponse({
         'message': "hello"
     })
+
+def webhook(request):
+    logging.info(request)
+
+    return JsonResponse({
+        'message': "hello"
+    })
