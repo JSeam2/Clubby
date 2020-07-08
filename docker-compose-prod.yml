@@ -25,6 +25,7 @@ services:
       volumes:
       - ./nginx/build/:/etc/nginx/html/
       # - ../certificates/letsencrypt/:/etc/letsencrypt/
+      - ./clubby/static:/usr/local/site/static
       - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
       - ./certificates/:/etc/nginx/ssl/
       # - ../certificates/nginx_auth:/etc/nginx/nginx_auth
