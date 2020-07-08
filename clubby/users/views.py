@@ -3,6 +3,7 @@ from django.http import JsonResponse
 import logging
 
 def index(request):
+    logging.info(request)
     return render(request, "users/index.html")
 
 def privacy(request):

@@ -35,6 +35,8 @@ Let the crowds decide how hot your music taste is.
 # Overview
 1. `clubby` contains the Django web application. This is meant to be hosted on Google's Appengine. This backend is designed to interface with Actions for Google Assistant
 
+1. `nginx` contains the dockerized nginx server required to host the application outside of Google's Appengine.
+
 # Challenges Faced While Building This
 1. Google cloud can be quite abstrust at times especially with Google actions which is needed for building voice interface with Google. 
 

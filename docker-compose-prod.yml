@@ -1,0 +1,31 @@
+version: "3"
+services:
+  backend:
+    build:
+      context: ./clubby
+      dockerfile: Dockerfile
+    command: bash -c "pip install -r requirements.txt && gunicorn -c gunicorn.py clubby.wsgi"
+    working_dir: /usr/local/site/
+    volumes:
+    - ./clubby:/usr/local/site/
+    - ./clubby/static:/usr/local/site/static
+    ports:
+    - 8000:8000
+    env_file:
+    - ./clubby/.env
+  frontend:
+      build:
+          context: ./nginx
+          dockerfile: Dockerfile
+      ports:
+          - "80:80"
+          - "443:443"
+      depends_on:
+          - backend
+      volumes:
+      - ./nginx/build/:/etc/nginx/html/
+      # - ../certificates/letsencrypt/:/etc/letsencrypt/
+      - ./backend/esplanade_backend/django-static/:/usr/local/django-static/
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - ./certificates/:/etc/nginx/ssl/
+      # - ../certificates/nginx_auth:/etc/nginx/nginx_auth
