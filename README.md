@@ -21,7 +21,6 @@ Let the crowds decide how hot your music taste is.
 
 1. Wait for your introductory speech and song to be played, and everyone would get to rate whether your song was hot or not hot.
 
-1. (Not Implemented Yet) Check the leaderboard for your hotness score, and compare with friends how hot of a radio DJ you are.
 
 # Features
 1. **Word Of Mouth Discovery**: The community radio and community DJ approach treats word of mouth discovery as the primary way of discovering music. It is the most natural way of discovering music and feels more alive as compared algorithm feeding you tracks. The introduction by users help explain why the songs are meaningful and in a human relatable way. It's all about vibing with other people.
@@ -45,3 +44,5 @@ Let the crowds decide how hot your music taste is.
 1. Google cloud can be quite abstrust at times especially with Google actions which is needed for building voice interface with Google. 
 
 1. Hooking up the various functionalities can be tricky. Bugs can arise through misconfiguration, while they're are addressable quirks the are massive time wasters.
+
+1. UMG's API doesn't integrate well with Google actions as Google actions does not provide an option for streaming audio data. A workaround involved adding the stream data to an mp3 container first in order for it to be played on Google action.
