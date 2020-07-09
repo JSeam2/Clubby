@@ -16,9 +16,9 @@ Maybe San Holo or Petit Biscuit makes you feel centered and hopeful, maybe Bill 
 
 2. **Gamified Music Recommendation and Discovery**: Music recommendation and discovery is no longer a passive experience as dictated by algorithms. We see music recommendation and discovery as an active social process and games provides a meaningful context for this to happen. The active experience provides a counterpoint to the passivity prevalent in streaming services.
 
-3. **Music Curation on the Fly**: You don't need to by sitting down on a computer or fiddling on a phone to create playlists and share music. With a voice first interface, you can do this while driving a car, coding, or doing some other task. The voice first interace provides an outlet for social expression not possible with touch based interface.
+3. **Play DJ on the fly**: You don't need to by sitting down on a computer or fiddling on a phone to share music. With a voice first interface, you can do this while driving a car, coding, or doing some other task. The voice first interace provides an outlet for social expression not possible with touch based interface.
 
-4. **Segmentation of Mixes and Distribution of Royalties**: As users will be pushing out tracks to queues via the system, we are able to track the play count of the individual tracks and account for the relevant metadata. This information can later be used for royalty payments and payments to the respective rights holders. Ad monies, and subscription payments are monies that can be distributed by this system.
+4. **Segmentation of Mixes and Distribution of Royalties**: As users will be pushing out tracks to queues via the system, we are able to track the play count of the individual tracks and account for the relevant metadata. This information can later be used for royalty payments and payments to the respective rights holders. Ad revenue and subscription payments are some sources that can be distributed by this system.
 
 # How It Works
 1. Sign up the app on Google assistant. _It is currently in alpha, so you need to get permission to join the alpha. Apply for alpha testing at [clubby.fm](https://clubby.fm)_
