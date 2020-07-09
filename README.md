@@ -1,5 +1,6 @@
 # Clubby 
 App hosted at [clubby.fm](https://clubby.fm)
+Demo at [https://youtu.be/Uqjm_kLhMAE](https://youtu.be/Uqjm_kLhMAE)
 
 Clubby is THE community radio built to solve the big problem of music discovery by scaling word of mouth. 
 Join a public radio channel and add your favourite songs + tell us about what they mean to you!
