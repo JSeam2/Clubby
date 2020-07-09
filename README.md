@@ -1,6 +1,8 @@
 # Clubby 
 App hosted at [clubby.fm](https://clubby.fm)
 
+Demo video at [https://youtu.be/GAI_Ex3j2os](https://youtu.be/GAI_Ex3j2os)
+
 
 Clubby seeks to scale the word of mouth.
 
@@ -8,7 +10,9 @@ Join a community radio channel as a radio DJ.
 
 Introduce new tracks to the community.
 
-Let the crowds decide how hot your music taste is.
+# Inspiration
+Clubby FM had been inspired by turntable.fm as well as podcasts as well as DJ radio mixes. What if you could make radio mixes on the fly and co-create experiences with people. With that in mind we started out on this hack.
+
 
 # How It Works
 1. Sign up the app on Google assistant. _It is currently in alpha, so you need to get permission to join the alpha. Apply for alpha testing at [clubby.fm](https://clubby.fm)_
@@ -46,3 +50,12 @@ Let the crowds decide how hot your music taste is.
 1. Hooking up the various functionalities can be tricky. Bugs can arise through misconfiguration, while they're are addressable quirks the are massive time wasters.
 
 1. UMG's API doesn't integrate well with Google actions as Google actions does not provide an option for streaming audio data. A workaround involved adding the stream data to an mp3 container first in order for it to be played on Google action.
+
+# Accomplishments We're Proud Of
+1. Developing a decent voice interface in a short period of time. Due to development bottlenecks developing voice interfaces can be very time consuming.
+
+# What We've Learned
+1. Google actions does not support streaming data. One would have expected streaming to have been easy as you could use Spotify with Google home and Google nest.
+
+# What's Next For Clubby FM
+1. Moving away from Google actions and developing a standalone platform or application with more flexibility.
